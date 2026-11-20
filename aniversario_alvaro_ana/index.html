@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f8eef0">
+  <title>Un año contigo | Álvaro & Ana</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <audio id="backgroundMusic" loop>
+    <source src="audio/musica.mp3" type="audio/mpeg">
+    Tu navegador no admite audio HTML5.
+  </audio>
+  <button class="music" id="musicButton" type="button">♫ Activar música</button>
+
+  <header class="hero" id="inicio">
+    <div class="hero-inner">
+      <div class="eyebrow">20 · 11 · 2025 — 20 · 11 · 2026</div>
+      <div class="heart">♡</div>
+      <h1>Un año<br><em>contigo</em></h1>
+      <p class="intro">Hay fechas que se convierten en recuerdos para siempre. Esta página es para celebrar la nuestra, y todo lo bonito que hemos construido juntos.</p>
+      <div class="date-pill">ÁLVARO & ANA · NUESTRO PRIMER ANIVERSARIO</div>
+      <div class="hero-link"><a class="btn" href="#historia">Descubre nuestra historia ↓</a></div>
+    </div>
+  </header>
+
+  <section class="story" id="historia">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="kicker">Un capítulo de nuestra vida</div>
+        <h2>Todo comenzó contigo</h2>
+        <p>Un año puede parecer poco tiempo, pero alcanza para llenar el corazón de momentos inolvidables.</p>
+      </div>
+      <div class="story-card">
+        <div class="heart">♡</div>
+        <p>Desde que llegaste a mi vida, hemos ido creando una historia que es solamente nuestra. De ser simplemente una compañera de salon a convertirte en el amor de mi vida.
+          Entre conversaciones, sonrisas, aventuras y pequeños momentos, este año se convirtió en algo que siempre voy a guardar con cariño.</p>
+        <p>Gracias por cada instante, por tu compañía y por formar parte de mis días. No se trata de que todo sea perfecto, sino de seguir compartiendo, aprendiendo y creando recuerdos juntos.</p>
+        <div class="signature">Con cariño, Álvaro</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="gallery" id="recuerdos">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="kicker">Pequeños instantes, grandes recuerdos</div>
+        <h2>Nuestros recuerdos</h2>
+        <p>Estos son algunos de nuestros momentos favoritos.</p>
+      </div>
+      <div class="photos">
+        <figure class="photo-card">
+          <div class="photo-frame"><img src="imagenes/foto1.jpg" alt="Un recuerdo especial de Álvaro y Ana"></div>
+          <figcaption class="caption">Un recuerdo especial</figcaption>
+        </figure>
+        <figure class="photo-card">
+          <div class="photo-frame"><img src="imagenes/foto2.jpg" alt="Otro recuerdo de Álvaro y Ana"></div>
+          <figcaption class="caption">De esos días bonitos</figcaption>
+        </figure>
+        <figure class="photo-card">
+          <div class="photo-frame"><img src="imagenes/foto3.jpg" alt="Un momento juntos"></div>
+          <figcaption class="caption">Y muchos más por venir</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section id="momentos">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="kicker">Nuestra pequeña línea del tiempo</div>
+        <h2>Un año de nosotros</h2>
+        <p>Puedes personalizar estos momentos con fechas y experiencias que tengan significado para ambos.</p>
+      </div>
+      <div class="timeline">
+        <article class="moment"><h3>20 de noviembre de 2025</h3><p>El día en que comenzó oficialmente esta aventura juntos, con un peluche y una cartita declarandome a ti.</p></article>
+        <article class="moment"><h3>Nuestros primeros recuerdos</h3><p>Las primeras salidas, conversaciones y momentos que nos fueron acercando.</p></article>
+        <article class="moment"><h3>Todo lo que compartimos</h3><p>Un montón de experiencias sean malas y buenas pero que hicieron que este año fuera único.</p></article>
+        <article class="moment"><h3>20 de noviembre de 2026</h3><p>Nuestro primer aniversario. Un año de historia y muchos recuerdos por crear hasta ser viejitos.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="counter">
+    <div class="wrap">
+      <div class="kicker">Desde aquel 20 de noviembre</div>
+      <h2>El tiempo a tu lado</h2>
+      <div class="numbers">
+        <div class="number"><strong id="days">0</strong><span>Días</span></div>
+        <div class="number"><strong id="hours">00</strong><span>Horas</span></div>
+        <div class="number"><strong id="minutes">00</strong><span>Minutos</span></div>
+        <div class="number"><strong id="seconds">00</strong><span>Segundos</span></div>
+      </div>
+      <p class="counter-note" id="counterNote">Nuestra historia sigue sumando momentos.</p>
+    </div>
+  </section>
+
+  <section class="letter" id="carta">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="kicker">Unas palabras para ti</div>
+        <h2>Una carta especial</h2>
+        <p>Hay cosas que merecen decirse con calma y desde el corazón.</p>
+      </div>
+      <div class="envelope">
+        <div class="envelope-icon">✉</div>
+        <p class="letter-recipient">Para Ana, con mucho cariño.</p>
+        <button class="btn btn-outline" id="openLetter" type="button">Abrir mi carta</button>
+        <div class="letter-text" id="letterText">
+Ana:
+
+Hoy celebramos nuestro primer año juntos y quería regalarte algo diferente: un pequeño espacio donde guardar un pedacito de nuestra historia, algo que quiero que recuerdes con amor y con un toque distinto.
+
+Gracias por las risas, las conversaciones, los momentos especiales y también por todo lo que hemos aprendido durante este tiempo. Cada recuerdo tiene un lugar importante para mí.
+
+Deseo que sigamos construyendo nuestra historia con cariño, respeto, paciencia y muchas nuevas experiencias, se que puede ser complicado por todos los problemas que hemos pasado pero eso nos a enseñado a mejorar para no rendirnos. Este primer año es solo un capítulo de todo lo que todavía podemos vivir.
+
+Feliz primer aniversario mi amor. ❤️
+
+Con cariño,
+Álvaro
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="surprise" id="sorpresa">
+    <div class="wrap surprise-box">
+      <div class="kicker">Y todavía queda algo más...</div>
+      <h2>Una última sorpresa</h2>
+      <p class="surprise-intro">Gracias por llegar hasta aquí. Hay algo que quiero que recuerdes siempre.</p>
+      <button class="btn" id="surpriseButton" type="button">Descubrir sorpresa ♡</button>
+      <div class="surprise-message" id="surpriseMessage"> Mi amor , si pudiera volver al día en que comenzó nuestra historia, volvería a elegir ese mismo salon, ese mismo grupo, y esas ganas de saber quien era esa chica tan hermosa para volver a vivir momentos contigo. Feliz primer año, y que nunca nos falten motivos para seguir sonriendo juntos. ❤️</div>
+    </div>
+  </section>
+
+  <footer>HECHO CON CARIÑO · ÁLVARO & ANA · 20.11.2026 ♡</footer>
+</body>
+</html>
