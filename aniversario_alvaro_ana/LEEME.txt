@@ -1,0 +1,28 @@
+PROYECTO: ANIVERSARIO ALVARO & ANA
+
+ESTRUCTURA:
+- index.html: contenido de la página.
+- style.css: colores, tamaños y diseño.
+- script.js: contador, música, carta y sorpresa.
+- imagenes/: coloca aquí tus fotografías.
+- audio/: coloca aquí tu música en formato MP3.
+
+AGREGAR FOTOGRAFÍAS:
+1. Copia tus fotos dentro de la carpeta "imagenes".
+2. Nombra tus fotos foto1.jpg, foto2.jpg y foto3.jpg.
+3. Si tus archivos tienen otro nombre o formato (por ejemplo .png), cambia el valor src de las etiquetas img en index.html.
+   Ejemplo: <img src="imagenes/vacaciones.png" alt="Nuestro viaje">
+
+AGREGAR MÚSICA:
+1. Coloca tu archivo de audio MP3 dentro de la carpeta "audio".
+2. Ponle el nombre musica.mp3.
+3. La música se activa cuando se pulsa el botón de la esquina superior.
+
+EDITAR:
+- Cambia los textos y títulos desde index.html.
+- Cambia colores desde las variables al inicio de style.css.
+- Cambia la fecha de inicio y aniversario al inicio de script.js si lo necesitas.
+
+VER LA PÁGINA:
+Abre la carpeta en Visual Studio Code y ejecuta index.html con Live Server.
+También puedes abrir index.html directamente en tu navegador.
